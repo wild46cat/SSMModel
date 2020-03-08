@@ -9,8 +9,10 @@
         <module name="SSMModel" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SSMModel" target="1.8" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SSMModel" options="-extdirs src/main/webapp/WEB-INF/lib" />
+    </option>
   </component>
 </project>
