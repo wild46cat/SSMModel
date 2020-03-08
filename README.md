@@ -1,2 +1,2 @@
 # SSMModel
-an empty ssm framework
+一个空的ssm框架，随时可用
